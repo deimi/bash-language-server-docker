@@ -1,3 +1,7 @@
+WORK IN PROGRESS
+Status: not working
+
+
 Docker container with bash language server for VSCode extension "Bash IDE"
 The server is executed on demand and won't need to be run in the background
 
@@ -14,7 +18,7 @@ This will create a image called "bash-language-server:latest"
 https://marketplace.visualstudio.com/items?itemName=mads-hartmann.bash-ide-vscode
 
 Set "bashIde.path" to the path where bash-language-server.cmd is stored. The extension will call the batch file itself.
-Tested with version 1.3.3
+Tested with version x.x.x
 
 ## Running bash-language-server
 Call bash-language-server.cmd
